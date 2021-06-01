@@ -4,6 +4,6 @@ module.exports = {
         aliases: ["owo"]
     },
     run: async ctx => {
-        await ctx.send(`Null is a weeb!`)
+       return await ctx.send(`Null is a weeb!`)
     }
 }
