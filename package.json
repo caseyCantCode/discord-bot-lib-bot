@@ -1,0 +1,11 @@
+{
+    "name": "discord-bot-lib-bot",
+    "description": "Some what advanced discord bot with a command handler and event handler made with [discord-bot-lib](https://npmjs.com/discord-bot-lib)",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "dependencies": {
+        "discord-bot-lib": "^1.1"
+    }
+}

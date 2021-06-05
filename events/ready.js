@@ -1,1 +1,1 @@
-module.exports = bot => console.log(`Bot is ready!`)
+module.exports = () => console.log('Bot is ready!');

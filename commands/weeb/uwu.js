@@ -1,9 +1,12 @@
 module.exports = {
     config: {
-        name: "uwu",
-        aliases: ["owo"]
+        aliases: ["owo"],
+        cooldown: 1,
+        onCooldown: async ctx => {
+            await ctx.send('Calm down, weeb!');
+        }
     },
     run: async ctx => {
-       return await ctx.send(`Null is a weeb!`)
+        await ctx.send('Null is NOT a weeb!');
     }
-}
+};
