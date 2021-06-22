@@ -1,5 +1,5 @@
 module.exports = (bot, msg) => {
-    if (msg.author.bot) return; // not respond to bots (recommended)
+    if (msg.author.bot)
+		return false; // not respond to bots. returning false will not pass the message to the command handler.
 
-    await bot.parseMessage(msg); // passes it to the command handler
 };

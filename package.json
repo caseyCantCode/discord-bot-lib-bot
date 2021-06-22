@@ -6,6 +6,6 @@
         "start": "node ."
     },
     "dependencies": {
-        "discord-bot-lib": "^1.1"
+        "discord-bot-lib": "1.2.7"
     }
 }

@@ -20,7 +20,7 @@ for (const command of readdirSync(`./commands`))
 for (const file of readdirSync('./events').filter(file => file.endsWith('.js'))) {
     console.log(greenBright(`[Events]: Event "${file}" has loaded.`));
     const func = require(`./events/${file}`);
-    bot.event(file.split(".")[0], data => func(bot, data));
+    bot.addEventListener(file.split(".")[0], data => func(bot, data));
 }
 
 bot.run();
