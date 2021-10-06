@@ -7,6 +7,6 @@ module.exports = {
         }
     },
     run: async ctx => {
-        await ctx.send('Null is NOT a weeb!');
+        await ctx.send('Null is a weeb!');
     }
 };
